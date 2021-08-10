@@ -97,5 +97,6 @@ To get started you have to define a container element as a grid with display: gr
 
 **REFERENCE LINKS 
   
- [Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
- [complete guide grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+ -[Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+ 
+ -[complete guide grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
