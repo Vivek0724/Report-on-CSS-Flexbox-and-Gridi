@@ -37,11 +37,11 @@ To get started you have to define a container element as a grid with display: gr
    - Flex Container is the parent element while Flex Item represents the children. The Flex Container can ensure balanced representation by adjusting item dimensions. This allows developers to design for fluctuating screen sizes.
   - Grid supports both implicit and explicit content placement. Its inbuilt automation allows it to automatically extend line items and copy values into the new creation from the preceding item.
 
-|PROPERTY|  |GRID|  |FLEXBOX|
-|---|  |---|  |---|
-|Dimension|  |Two-Dimensional|  |One-Dimensional|
-|Features|  |Can flex combination of items through space-occupying Features|  |Can push content element to extreme alignment|
-|Support type|  |Layout first|  |content first|
+|PROPERTY |GRID |FLEXBOX|
+|--- |--- |---|
+|Dimension |Two-Dimensional |One-Dimensional|
+|Features |Can flex combination of items through space-occupying Features |Can push content element to extreme alignment|
+|Support type |Layout first |content first|
  
 ## FLEXGRID.CSS CODE :
 
