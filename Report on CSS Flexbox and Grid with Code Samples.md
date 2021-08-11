@@ -60,6 +60,25 @@ A common app and web pattern is to create a top bar where we want to stretch onl
 ```
 > Even if the middle element here has a defined width of 100px, flex-grow will make it stretch to take up all the available space.
 
+## 3*3 Grid
+We can create a 3x3 grid by setting flex-grow to 0 and flex-basis to the preferred width for all children (here done using the flex short-hand: flex: 0 32%). The margins between the items are the leftovers from every row, i.e. (100%-32x3)/2=2%. I’ve matched the margin (margin-bottom: 2%) to achieve even spacing between all elements:
+
+```
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+}
+
+```
+>You can change the flex-basis to increase or decrease the number of items on each row. flex: 0 24% would put 4 items on every row, flex: 0 19% would put 5 items on every row, and so on so forth
+
 [common flexbox example](https://tobiasahlin.com/blog/common-flexbox-patterns/)
 
 ## GRID
@@ -137,24 +156,7 @@ The space between two adjacent grid lines. You can think of them as the columns 
 |Features  |Can flex combination of items through space-occupying Features  |Can push content element to extreme alignment|
 |Support type  |Layout first  |content first|
 
-## 3*3 Grid
-We can create a 3x3 grid by setting flex-grow to 0 and flex-basis to the preferred width for all children (here done using the flex short-hand: flex: 0 32%). The margins between the items are the leftovers from every row, i.e. (100%-32x3)/2=2%. I’ve matched the margin (margin-bottom: 2%) to achieve even spacing between all elements:
-
-```
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.item {
-  flex: 0 32%;
-  height: 100px;
-  margin-bottom: 2%; /* (100-32*3)/2 */
-}
-
-```
->You can change the flex-basis to increase or decrease the number of items on each row. flex: 0 24% would put 4 items on every row, flex: 0 19% would put 5 items on every row, and so on so forth.
+.
  
 ## FLEXGRID.CSS CODE :
 
