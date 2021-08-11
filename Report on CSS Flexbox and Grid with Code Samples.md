@@ -5,9 +5,9 @@ Flexbox is a layout mode in CSS3. It’s a more proficient approach to designing
 With Flexbox, we can arrange items left to right, right to left, top to bottom, or bottom to top and, at the same time, control the spacing, alignment, and order of items in the container. 
 
 ## You should consider using Flexbox when:
-** You have a small design to implement**    Flexbox is ideal when you have a small layout design to implement, with a few rows or a few columns
-** You need to align elements**    Flexbox is perfect for that, the only thing we should do is create a flex container using display: flex and then define the flex-direction that we want
-** You need a content-first design**   Flexbox is the ideal layout system to create web pages if you don’t know exactly how your content is going to look, so if you want everything just to fit in, Flexbox is perfect for that.
+**You have a small design to implement** Flexbox is ideal when you have a small layout design to implement, with a few rows or a few columns
+**You need to align elements** Flexbox is perfect for that, the only thing we should do is create a flex container using display: flex and then define the flex-direction that we want
+**You need a content-first design** Flexbox is the ideal layout system to create web pages if you don’t know exactly how your content is going to look, so if you want everything just to fit in, Flexbox is perfect for that.
 
 Of course, you can build your whole application using only Flexbox and get the same result as if you were building with CSS grid, that’s totally fine. But for a better CSS approach, to have a more concise, well-written, and maintainable application in the long-term, to create and fit your layout perfectly, the ideal method is to use CSS grid.
 
